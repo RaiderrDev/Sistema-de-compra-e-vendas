@@ -26,3 +26,4 @@ C:\Users\samue\Desktop\Loja complexa (nao finalizada)\obj\Debug\net8.0\refint\ex
 C:\Users\samue\Desktop\Loja complexa (nao finalizada)\obj\Debug\net8.0\exercicio.pdb
 C:\Users\samue\Desktop\Loja complexa (nao finalizada)\obj\Debug\net8.0\exercicio.genruntimeconfig.cache
 C:\Users\samue\Desktop\Loja complexa (nao finalizada)\obj\Debug\net8.0\ref\exercicio.dll
+C:\Users\samue\Desktop\Loja complexa (nao finalizada)\obj\Debug\net8.0\exercicio.sourcelink.json

@@ -2,7 +2,7 @@ public class GerarRelatorios
 {
     public static void RelatorioVenda(Loja loja)
     {
-        string caminhoArquivo = $"{loja.Nome}<{DateTime.Now}>(RelatorioVendas)"; //Caminho personalizado
+        string caminhoArquivo = $"{loja.Nome}(RelatorioVendas)"; //Caminho personalizado
         decimal totalValorVendas = 0;
         int totalVendas = 0;
 
@@ -23,9 +23,8 @@ public class GerarRelatorios
 
     public static void RelatorioEstoque(Loja loja, int quantidade)
     {
-        string caminhoArquivo = $"{loja.Nome}<{DateTime.Now}>(RelatorioEstoque)";
+        string caminhoArquivo = $"{loja.Nome}(RelatorioEstoque)";
         List<Produto> listaTempProdutos = new List<Produto>();
-        int qtddProdutos = listaTempProdutos.Count;
 
         foreach (var categoria in loja.Categorias)
         {
@@ -37,6 +36,7 @@ public class GerarRelatorios
                 }
             }
         }
+        int qtddProdutos = listaTempProdutos.Count;
 
         if (listaTempProdutos.Count == 0)
         {
