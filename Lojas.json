@@ -1,0 +1,41 @@
+[
+  {
+    "Nome": "tech lead",
+    "Localizacao": {
+      "Cidade": "SP",
+      "Pais": "Brasil"
+    },
+    "Categorias": [
+      {
+        "Id": 10,
+        "Nome": "jaquetas",
+        "Produtos": [
+          {
+            "Id": 101,
+            "Nome": "jaqueta adidas",
+            "Preco": 198.90,
+            "Estoque": 8
+          },
+          {
+            "Id": 102,
+            "Nome": "Jaqueta puma",
+            "Preco": 157.70,
+            "Estoque": 2
+          }
+        ]
+      },
+      {
+        "Id": 11,
+        "Nome": "camisas",
+        "Produtos": [
+          {
+            "Id": 115,
+            "Nome": "camisa lacoste",
+            "Preco": 257.40,
+            "Estoque": 12
+          }
+        ]
+      }
+    ]
+  }
+]
